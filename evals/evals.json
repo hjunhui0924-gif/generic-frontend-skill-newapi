@@ -1,0 +1,35 @@
+{
+  "skill_name": "generic-frontend-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a responsive React admin page for managing API keys. It needs search, status filters, pagination, create/edit actions, loading, empty, error, and delete-confirmation states. Reuse the existing project's components and styling.",
+      "expected_output": "A coherent list-page implementation that inspects and follows the host project's stack, defines all requested states, and includes responsive and accessible interactions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Design a settings page for an AI SaaS product with profile, security, notification, and appearance sections. Include unsaved-change handling, field validation, dark mode, and mobile layout.",
+      "expected_output": "A grouped settings pattern with predictable save behavior, validation and feedback, theme handling, and keyboard/mobile considerations.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Build a dashboard for a data platform showing usage metrics, a trend chart, recent activity, and a filtered empty state. The project uses Vue and CSS Modules, so do not introduce React or Tailwind.",
+      "expected_output": "A Vue/CSS Modules implementation adapted to the stated stack, with meaningful hierarchy, data states, responsive behavior, and no forced React/Tailwind dependencies.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Create an AI chat workspace with streaming response, cancel and retry controls, error recovery, keyboard-friendly input, and reduced-motion support.",
+      "expected_output": "A conversation pattern that distinguishes user and generated content and handles pending, streaming, cancellation, retry, error, accessibility, and reduced-motion states.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Make a simple marketing landing page with a hero, three feature cards, and a footer. Use the repository's existing styles and avoid adding a new design system.",
+      "expected_output": "A proportionate implementation that reuses existing styles and does not over-apply complex admin patterns or unnecessary dependencies.",
+      "files": []
+    }
+  ]
+}
